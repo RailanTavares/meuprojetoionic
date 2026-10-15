@@ -1,0 +1,102 @@
+.contatos-content {
+    --background: #f4f6f9;
+  }
+  
+  .contatos-container {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .contatos-header-text {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .contatos-header-text h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .contatos-header-text p {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .contato-card-link {
+    text-decoration: none;
+    display: block;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .contato-card-link:hover {
+    transform: translateY(-3px);
+  }
+  
+  .contato-card {
+    margin: 0;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    background: #ffffff;
+    border-left: 5px solid #ccc;
+  }
+  
+  .card-content {
+    display: flex;
+    align-items: center;
+    padding: 16px !important;
+  }
+  
+  .contato-icon {
+    font-size: 32px;
+    margin-right: 16px;
+  }
+  
+  .contato-info {
+    flex: 1;
+  }
+  
+  .contato-info h3 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #222;
+    margin: 0 0 4px 0;
+  }
+  
+  .contato-info p {
+    font-size: 13px;
+    color: #666;
+    margin: 0;
+  }
+  
+  .arrow-icon {
+    font-size: 20px;
+    color: #999;
+  }
+  
+  /* Cores customizadas e identidades visuais por rede */
+  .contato-card.github {
+    border-left-color: #24292e;
+  }
+  .contato-card.github .contato-icon {
+    color: #24292e;
+  }
+  
+  .contato-card.instagram {
+    border-left-color: #e1306c;
+  }
+  .contato-card.instagram .contato-icon {
+    color: #e1306c;
+  }
+  
+  .contato-card.whatsapp {
+    border-left-color: #25d366;
+  }
+  .contato-card.whatsapp .contato-icon {
+    color: #25d366;
+  }
